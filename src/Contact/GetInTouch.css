@@ -1,0 +1,27 @@
+.information-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; /* Optional: Space between boxes */
+}
+
+.information-item {
+  flex: 1 1 calc(50% - 20px); /* Each box takes up 50% width minus gap */
+  height: 250px; /* Ensures equal height */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  background-color: #f9f9f9; /* Example background color */
+  padding: 20px;
+  border: 1px solid #e1e1e1; /* Optional border for better box visibility */
+}
+
+.icon {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.info {
+  text-align: center;
+}

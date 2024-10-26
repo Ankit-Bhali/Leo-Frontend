@@ -1,0 +1,82 @@
+.offcanvas-panel {
+  position: fixed;
+  top: 0;
+ /* Adjust width as needed */
+  width: 300px; /* Set the width of the sidebar */
+  height: 100%;
+  background-color: white; /* Or your preferred background color */
+  transition: right 0.3s ease; /* Smooth transition */
+  z-index: 9999; /* Ensure it is on top */
+}
+
+.offcanvas-panel .open {
+  right: 0; /* Show the sidebar */
+}
+
+.panel-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Dark background for overlay */
+  display: block;
+  z-index: 9998; /* Just below the sidebar */
+}
+
+.offcanvas-panel .open .panel-overlay {
+  display: block; /* Show overlay when sidebar is open */
+}
+.services-links:hover .service-hover{
+  opacity: 1;
+  visibility: visible;
+  background-color: white;
+  top: 5rem;
+}
+.service-hover{
+  position: absolute;
+  display: flex;
+  width: 98rem;
+  height: 70vh;
+  justify-content: center;
+  background-color: aliceblue;
+  top: 4rem;
+  left: -39rem;
+  opacity: 0;
+  visibility: hidden;
+  transition: .3s linear;
+}
+.div-1{
+  width: 21%;
+  margin: 0 2rem;
+}
+
+.div-links{
+  display: flex;
+  flex-direction: column;
+}
+.heading-link{
+  font-size: 1rem;
+  margin-top: 1rem;
+  margin-bottom: -2rem;
+  font-weight: bold;
+}
+.list-links{
+  height: 3rem;
+  list-style-type: disc;
+}
+/* .main-menu ul{
+  list-style-type: "\25B8";
+} */
+ .active-nav-link{
+  padding-top: -1rem;
+  height: 5rem;
+ }
+ @media screen and (max-width:920px) {
+    .active-nav{
+      display: none;
+    }
+ }
+ 
+
+

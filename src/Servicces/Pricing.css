@@ -1,0 +1,11 @@
+.scrollable-container {
+  max-height: 100px; /* Set a fixed height */
+  overflow-x: auto; /* Enable horizontal scrolling */
+  overflow-y: hidden; /* Hide vertical scrollbar */
+  white-space: nowrap; /* Prevent text wrapping */
+  padding: 10px; /* Add some padding */
+  border: 1px solid #007bff; /* Optional: add border */
+  border-radius: 5px; /* Optional: add rounded corners */
+  background-color: #f8f9fa; /* Optional: set background color */
+  margin-top: 10px; /* Space above the scrollable container */
+}

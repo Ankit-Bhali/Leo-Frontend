@@ -1,0 +1,15 @@
+Smooth fade-in and fade-out transitions .fade-in {
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.fade-out {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+/* Optionally, you can add transitions for the image-holder for even smoother effects */
+.img-holder img {
+  width: 100%;
+  transition: opacity 0.5s ease-in-out;
+}

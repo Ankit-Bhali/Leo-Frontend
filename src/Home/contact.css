@@ -1,0 +1,13 @@
+.information-style-one {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Aligns content to the start */
+}
+
+.info {
+  margin-bottom: 10px; /* Space between the headers and contact info */
+}
+
+.icon {
+  margin-top: 10px; /* Space above the icon */
+}
